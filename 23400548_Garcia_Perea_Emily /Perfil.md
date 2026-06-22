@@ -9,14 +9,15 @@
 
 ## 💻 Intereses
 - Inteligencia Artificial
+- Desarrollo Web
 - Desarrollo Frontend
 - Desarrollo Backend
 - Desarrollo Movil
 
 ## 🛠 Tecnologías que conozco
 - Java, JavaScript
-- MySQL, SQL Server, 
-- Git y GitHub
+- MySQL, SQL Server
+- 20% GitHub
 
 ## 📫 Cómo contactarme
 - Correo: emgarciape@ittepic.edu.mx
