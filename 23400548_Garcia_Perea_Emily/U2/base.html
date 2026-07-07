@@ -5,6 +5,139 @@
 
         <title>Estructura base</title>
 
+        <!--para que sea en todo el cuerpo-->
+        <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #5d6b66; 
+            color: #4a4a4a; /*gris*/
+            max-width: 600px; /* Centra el contenido*/
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        div, form, table{
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+
+        }
+
+        h1,h3 {
+            color:rgb(223, 117, 10)
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+
+        }
+
+        ul,ol {
+            padding-left: 30px;
+        }
+
+        table {
+
+            width:100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th {
+
+        background:greenyellow ;
+        color: white;
+        padding: 10px;
+
+        }
+        
+
+        td{
+            padding: 10px;
+        }
+
+        a{
+            color: aqua;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+
+        a:hover{
+
+            text-decoration: underline;
+            color: blue;
+
+        }
+
+
+        fieldset{
+            border: 2px solid blue;
+            border-radius: 10px;
+            padding: 20px
+
+
+        }   
+
+        legend{
+            font-weight: bold;
+            padding: 10px;
+            color: blue;
+
+        }
+
+        label {
+
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            margin-top: 5px;
+            padding: 8px;
+            border: 1px solid rgb(57, 49, 215);
+            border-radius: 5px;
+
+        }
+
+
+
+        .boton{
+            background: blue;
+            color:white;
+            border: none;
+            cursor:pointer;
+
+
+
+        }
+
+        input[type="submit"]{
+            background: blue;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="reset"]{
+        background: grey;
+
+
+        }
+
+        input[type="submit"]:hover{
+        background: grey;
+
+
+        }
+
+
+
+        </style>
+
     </head>
     <body>
         <h3 id="encabezados" style="color: red; background:rgb(246, 226, 5); width: 50%; text-align: center;">Encabezado</h3>
@@ -69,7 +202,7 @@
 <tr>
 <td>Juan</td>
 <td>29</td>
-<th>ITTepic</th>
+<td>ITTepic</td>
 
 
 </tr>
