@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Billie Eilish</title>
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e2522; 
+            color: #c1ddd6;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        
+        .card {
+            background: #4a4242;
+            color: #bfccd9;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            background: rgb(50, 47, 47);
+
+
+
+        }
+
+   
+        h1 {
+            background: #292e18;
+            border: 2px solid;
+            border-radius: 10px;
+            color: #00ff66; 
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        h1:hover{
+
+            color: #045028;
+        }
+
+        h2 {
+            color: #82dd72; 
+            border-bottom: 2px solid #82dd72;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #e67e22; 
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+       
+        a {
+            color: #ecd970; 
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #91976b;
+        }
+
+       
+        .indice a {
+            color: #c1ddd6;
+        }
+        .indice a:hover {
+            color: #00ff66;
+        }
+
+        /* Listas */
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+      
+        img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+   
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        th {
+            background-color: #1b4d3e; 
+            color: white;
+            padding: 12px;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+     
+       
+        fieldset {
+            border: 2px solid #1b4d3e;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+            color: #1b4d3e;
+        }
+
+        input[type="submit"], .boton {
+            background: #1b4d3e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover, .boton:hover {
+            background: #00ff66;
+            color: #1e2522;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 40px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+
+
+<!--------------CONTENIDO------------------------------------------->
+<body>
+
+
+    <h1>Billie Eilish</h1>
+
+    <!-- Sección Introducción -->
+    <div class="card">
+        <p>
+            <strong>Billie Eilish</strong> es una de las artistas más influyentes y disruptivas del pop moderno. Su estilo se define por una estética oscura, alternativa y minimalista, caracterizada por su característica voz susurrada <em>(whisper pop)</em> y una producción electrónica profunda y vanguardista, creada casi en su totalidad junto a su hermano Finneas.
+        </p>
+        <p>
+            Ha roto récords globales desde muy joven gracias a su autenticidad, letras honestas sobre la salud mental y la juventud, y un rechazo constante a las normas tradicionales de la industria musical, lo que la ha consolidado como el ícono definitivo de la Generación Z.
+        </p>
+    </div>
+
+    <!-- Sección Índice -->
+    <div class="card indice">
+        <h2>Índice</h2>
+        <ol>
+            <li><a href="#fotografia">Fotografía del artista</a></li>  
+            <li><a href="#integrantes">Integrantes</a></li>  
+            <li><a href="#discografia">Discografía</a></li> 
+            <li><a href="#enlaces">Enlaces</a></li> 
+        </ol>
+    </div>
+
+    <!-- Sección Fotografía -->
+    <div id="fotografia" class="card">
+        <h2>Fotografía del artista</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnkHTOlbLe8IW68f0tG8Es6Ll-Ya_51V_Xj83Tu8--TQ&s=10" alt="Billie Eilish">
+    </div>
+
+    <!-- Sección Integrantes -->
+    <div id="integrantes" class="card">
+        <h2>Integrantes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Billie Eilish</td>
+                    <td>Vocalista / Compositora</td>
+                </tr>
+                <tr>
+                    <td>Finneas O'Connell</td>
+                    <td>Productor / Coescritor / Multiinstrumentista</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Sección Discografía -->
+    <div id="discografia" class="card">
+        <h2>Discografía</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>When We All Fall Asleep, Where Do We Go?</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Happier Than Ever</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>HIT ME HARD AND SOFT</td>
+                    <td>2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Sección Enlaces -->
+    <div id="enlaces" class="card">
+        <h2>Enlaces de interés</h2>
+        <ul>
+            <li><a href="https://store.billieeilish.com/" title="Ir a la Store" target="_blank">Sitio Oficial / Tienda</a></li>  
+            <li><a href="https://es.wikipedia.org/wiki/Billie_Eilish" title="Ir a Wikipedia" target="_blank">Wikipedia</a></li>  
+            <li><a href="https://open.spotify.com/intl-es/artist/6qqNVTkY8uBg9cP3Jd7DAH" title="Ir a Spotify" target="_blank">Spotify Oficial</a></li>  
+        </ul>
+    </div>
+
+    <footer>
+        <p>Unidad 2</p>
+    </footer>
+
+</body>
+</html>
