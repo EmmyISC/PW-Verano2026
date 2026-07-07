@@ -1,0 +1,230 @@
+
+
+/*Actividad 3 Travel World*/
+
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #dddfe1;
+        color: #333333;
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
+        }
+
+
+/*General*/
+     
+
+/* Encabezado Principal */
+    header {
+        text-align: center;
+        background: linear-gradient(150deg, #006699, #0ddfca); /* Degradado marino */
+        color: white;
+        padding: 40px 20px;
+        border-radius: 12px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Menú de Navegación */
+        nav {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        /*los enlaces*/
+        nav a {
+            color: #006699;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #00a896;
+            text-decoration: underline;
+        }
+
+        
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgb(184, 172, 172);
+        }
+
+        h2 {
+            color: #006699;
+            border-bottom: 2px solid #00a896;
+            padding-bottom: 8px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #028090;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        /*Listas*/
+        ul, ol {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+      
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            margin: 15px 0;
+        }
+
+        th {
+            background-color: #006699;
+            color: white;
+            padding: 12px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        fieldset {
+            border: 2px solid #00a896;
+            border-radius: 10px;
+            padding: 25px;
+            background-color: #fafbfc;
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 0 15px;
+            color: #006699;
+            font-size: 1.1rem;
+        }
+
+
+        /*Orden del fomrulario*/
+        .form-orden {
+            display: grid;
+            gap: 15px 25px;
+            margin-bottom: 20px;
+        }
+
+        .form-espacio {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-orden2 {
+            grid-column: span 2;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="date"],
+        input[type="time"],
+        select,
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+            background-color: #fff;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+
+        /* Botones del formulario*/
+        .botones{
+            margin-top: 20px;
+        }
+
+        input[type="submit"], 
+        input[type="reset"] {
+            flex: 1; /*separa*/
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        input[type="submit"] {
+            background-color: #00a896;
+            color: white;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #028090;
+        }
+
+        input[type="reset"] {
+            background-color: #95a5a6;
+            color: white;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #7f8c8d;
+        }
+
+        .enlaces-finales a {
+            display: inline-block;
+            color: #006699;
+            margin-bottom: 8px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .enlaces-finales a:hover {
+            text-decoration: underline;
+            color: #00a896;
+        }
