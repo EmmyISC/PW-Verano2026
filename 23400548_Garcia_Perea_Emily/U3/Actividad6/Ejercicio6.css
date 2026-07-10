@@ -1,0 +1,239 @@
+/*general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000; 
+    color: #e7e9ea; 
+}
+
+/*CONTENEDOR PRINCIPAL*/
+.container {
+    display: flex;
+    flex-grow: 1; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; 
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 350px; 
+}
+
+
+.section-der {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.botones-container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 9999px; 
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.btn-blanco:hover {
+    background-color: #e6e6e6;
+}
+
+.btn-azul {
+    background-color: #1d9bf0;
+    color: white;
+    border: none;
+}
+
+.btn-azul:hover {
+    background-color: #1a8cd8;
+}
+
+.btn-negro {
+    background-color: transparent;
+    color: #1d9bf0;
+    border: 1px solid #536471;
+}
+
+.btn-negro:hover {
+    background-color: rgba(29, 155, 240, 0.1); /
+}
+
+
+.separador {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #e7e9ea;
+    margin: 5px 0;
+}
+
+/*línea*/
+.separador::before,
+.separador::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #2f3336;
+}
+
+.separador span {
+    padding: 0 10px;
+}
+
+
+.terminos {
+    font-size: 11px;
+    color: #71767b;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.terminos a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.terminos a:hover {
+    text-decoration: underline;
+}
+
+
+.login-section {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login-section h4 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: center; 
+    color: white;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    gap: 15px; 
+}
+
+footer a, footer span {
+    text-decoration: none;
+    color: #71767b;
+    font-size: 13px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*celular*/
+@media (max-width: 800px) {
+    body {
+        height: auto; 
+        min-height: 100vh;
+    }
+
+    .container {
+        flex-direction: column; /*Apila el logo arriba y el contenido abajo*/
+        justify-content: center; /*Centra verticalmente*/
+        align-items: center; /*Centra horizontalmente*/
+        text-align: center; /*Centra todos los textos*/
+        padding: 30px 20px;
+        gap: 30px; /* Espacio entre el logo y los textos */
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Centra logo */
+    }
+
+    .logo img {
+        width: 300px; 
+    }
+
+    .section-der {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    h1 {
+        font-size: 36px; 
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .botones-container {
+        margin: 0 auto;
+    }
+
+    .terminos {
+        text-align: center; 
+        padding: 0 10px;
+    }
+}
