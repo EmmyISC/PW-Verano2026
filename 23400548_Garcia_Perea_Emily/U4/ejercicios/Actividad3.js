@@ -24,9 +24,6 @@ let exponente =2;
 
 }//potencia
 
-
-
-
 potencia();
 
 
