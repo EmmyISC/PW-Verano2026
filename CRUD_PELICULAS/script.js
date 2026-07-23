@@ -90,7 +90,7 @@ mostrarPeliculas();
 */
 
 //---------------------------------------------------------------------------------------
-const API_URL = "https://api-peliculas-nine.vercel.app/";
+const API_URL = "https://api-peliculas-nine.vercel.app/peliculas";
 
 const formulario = document.getElementById("formulario");
 const id = document.getElementById("id");
